@@ -1,0 +1,48 @@
+(function () {
+	"use strict";
+	
+	//check correct value pay
+	$(document).on("click", "#pay_button", function (event) {
+	    if ($("#payeer").prop('checked')) {
+	    	event.preventDefault();
+		    $.ajax({
+				url: 'pay/payeer/generic.php',
+				data: $("form[name=spendform]").serialize(),
+				success: function (data) {
+				    if (!data.error && data.link) {
+						window.location = data.link;
+					} else if (data.error && data.message) {
+					    window.alert(data.message);
+					} else {
+					    window.alert(data);
+					}
+				},
+				error: function () {
+					window.alert("Ошибка запроса формирования платежа!");
+				}
+			});
+		    return false;
+		 }
+		if ($("#okpay").prop('checked')) {
+	    	event.preventDefault();
+		    $.ajax({
+				url: 'pay/okpay/generic.php',
+				data: $("form[name=spendform]").serialize(),
+				success: function (data) {
+				    if (!data.error && data.link) {
+						window.location = data.link;
+					} else if (data.error && data.message) {
+					    window.alert(data.message);
+					} else {
+					    window.alert(data);
+					}
+				},
+				error: function () {
+					window.alert("Ошибка запроса формирования платежа!");
+				}
+			});
+		    return false;
+		 }
+		 return true;
+	});
+}());

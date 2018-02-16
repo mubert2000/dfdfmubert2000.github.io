@@ -1,0 +1,13 @@
+AddDefaultCharset windows-1251
+ErrorDocument 400 /includes/errors/400.php
+ErrorDocument 401 /includes/errors/401.php
+ErrorDocument 403 /includes/errors/403.php
+ErrorDocument 404 /includes/errors/404.php
+ErrorDocument 500 /includes/errors/500.php
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
+
+</IfModule>

@@ -1,0 +1,588 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201511 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.veritas-donum.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2670                
+POS_VISITOR 16622               
+POS_DAY 19289               
+POS_DOMAIN 3540                
+POS_LOGIN 3773                
+POS_ROBOT 3928                
+POS_WORMS 4391                
+POS_EMAILSENDER 4522                
+POS_EMAILRECEIVER 4665                
+POS_SESSION 19781               
+POS_SIDER 19988               
+POS_FILETYPES 4800                
+POS_DOWNLOADS 5038                
+POS_OS 5159                
+POS_BROWSER 5381                
+POS_SCREENSIZE 6065                
+POS_UNKNOWNREFERER 6139                
+POS_UNKNOWNREFERERBROWSER 6391                
+POS_ORIGIN 6540                
+POS_SEREFERRALS 6683                
+POS_PAGEREFS 6827                
+POS_SEARCHWORDS 8046                
+POS_KEYWORDS 8198                
+POS_MISC 2333                
+POS_ERRORS 8257                
+POS_CLUSTER 3629                
+POS_SIDER_404 8415                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151201000926 1 0 10764206770401
+FirstTime 20151114003355
+LastTime 20151130234847
+LastUpdate 20151201010101 1 0 0 0 0
+TotalVisits 98                  
+TotalUnique 63                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 65                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 31 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 34 168 3419068 35 54 350207
+1 29 130 2316894 41 46 389123
+2 22 139 2719056 52 72 285012
+3 99 99 1383744 65 69 300508
+4 75 75 1100427 53 66 269945
+5 48 48 729244 62 111 1062781
+6 51 64 1149411 69 83 732120
+7 26 801 2584214 86 119 387394
+8 16 143 1860575 83 110 364885
+9 105 393 8781841 54 70 289992
+10 48 272 4159973 66 444 567775
+11 11 24 519068 59 70 434700
+12 32 572 2462312 46 95 258318
+13 181 1622 10550500 189 469 1285197
+14 94 537 5944153 142 332 1198225
+15 18 323 4741379 83 114 543131
+16 38 233 4668898 100 237 1210159
+17 135 581 8835860 148 530 1241780
+18 14 33 613484 71 132 1375326
+19 16 16 237728 49 54 203443
+20 15 15 282390 53 60 334848
+21 30 30 464342 80 88 362539
+22 25 135 2419088 55 94 1484684
+23 26 26 421747 55 64 387942
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1188 6479 72365396
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 291 6234310 20151128050447 0
+baiduspider 159 3473764 20151130060503 0
+mj12bot 60 724710 20151128022004 0
+no_user_agent 43 1310348 20151130230745 0
+bingbot 17 354157 20151126145627 0
+surveybot 1 34698 20151125001722 0
+libwww 1 34698 20151117042839 0
+^mozilla\/5\.0$ 1 34698 20151122173000 0
+crawl 1 36386 20151116044415 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 1201 12706469 0 0
+png 913 1168514 0 0
+ico 3 954 0 0
+txt 2 62 0 0
+php 759 16725900 0 0
+html 429 11791991 0 0
+js 2864 13629433 0 0
+jpg 173 12968315 0 0
+gif 135 3373758 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/payeer_105230339.txt 1 0 9
+/4120CEB439D0A400F045A3B91F05F77C.txt 1 0 53
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+blackberry 1 1
+winxp 579 512
+winlong 69 69
+unix 35 1
+winnt 226 12
+win98 1 1
+linuxubuntu 1 1
+linux 6 6
+winvista 325 9
+win7 4950 559
+macosx 277 9
+Unknown 9 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 32
+msie6.0 6 6
+chrome44.0.2403.125 4 4
+firefox5.0 1 1
+chrome39.0.2171.95 1 1
+msie8.0 2 2
+chrome47.0.2526.16 104 3
+firefox6.0.2 1 1
+firefox3.5.8 67 67
+chrome38.0.2125.122 189 4
+msie7.0 1 1
+chrome48.0.2564.8 367 50
+safari8.0 69 2
+firefox9.0.1 12 12
+chrome44.0.2403.111 72 5
+Unknown 5 4
+chrome10.0.648.127 1 1
+netscape 1 1
+chrome48.0.2564.10 294 24
+blackberry 1 1
+firefox42.0 2 2
+chrome48.0.2560.0 3440 444
+chrome34.0.1847.131 1 1
+firefox38.0 35 1
+firefox12.0 1 0
+chrome32.0.1700.107 1 1
+chrome46.0.2490.80 135 3
+safari9.0 136 2
+chrome36.0.1985.143 209 7
+mozilla 492 492
+chrome35.0.1916.153 1 1
+firefox14.0.1 6 6
+chrome46.0.2490.86 822 38
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla 20151114003356
+Opera 20151130032045
+COMODO_DCV 20151114155155
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20151123132227
+ZmEu 20151122224121
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Opera 20151130032045
+COMODO_DCV 20151114155155
+ZmEu 20151122224121
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 355 369
+From1 0 0
+From2 0 0
+From3 458 738
+From4 375 5372
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 24
+http://93.171.159.141/myadmin/scripts/setup.php 247 247
+http://93.171.159.141/myadmin/index.php 66 66
+https://93.171.159.141/myadmin/navigation.php 33 61
+https://93.171.159.141/myadmin/index.php 25 28
+https://93.171.159.141/myadmin/tbl_structure.php 20 118
+https://93.171.159.141/myadmin/sql.php 14 55
+https://vk.com/copywriterdoktor 10 10
+http://rankings-analytics.com/try.php 8 8
+https://93.171.159.141/myadmin/ 5 11
+http://vk.com/dr.diman 4 4
+https://93.171.159.141/myadmin/db_qbe.php 1 1
+https://93.171.159.141:1500/manager/ispmgr 3 3
+http://vk.com/away.php 3 3
+https://93.171.159.141/myadmin/tbl_replace.php 2 4
+https://93.171.159.141/myadmin/tbl_change.php 3 9
+https://93.171.159.141/myadmin/phpmyadmin.css.php 0 36
+https://93.171.159.141/myadmin/db_import.php 3 4
+https://93.171.159.141/myadmin/main.php 1 11
+https://93.171.159.141/myadmin/db_export.php 1 1
+http://vk.com/copywriterdoktor 1 1
+https://93.171.159.141/myadmin/tbl_row_action.php 2 2
+https://m.vk.com/away.php 1 1
+https://93.171.159.141/myadmin/db_structure.php 4 53
+http://video--production.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 1 285
+302 1003 298796
+206 36 1121357
+400 17 6944
+301 80 26070
+404 1818 1569143
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 141
+/filessite/jquery.zaccordion.min.js 7 http://veritas-donum.com/
+/filessite/jquery.mobilemenu.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/circles.min.js%3Fver=1.0 1 https://veritas-donum.com/
+/softkey.png 6 https://veritas-donum.com/
+/filesite/icon1.png 1 https://veritas-donum.com/
+/admin/config.php 12 -
+/filessite/swfobject.js%3Fver=2.2-20120417 1 https://veritas-donum.com/
+/filessite/magnific-popup.css 10 http://veritas-donum.com/
+/registration 1 -
+/filessite/camera.min.js%3Fver=1.3.4 1 https://veritas-donum.com/
+/filessite/jquery.mousewheel.min.js%3Fver=3.0.6 1 https://veritas-donum.com/
+/adminpanel/js/jquery.toastmessage.js 59 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/jplayer.playlist.min.js%3Fver=2.3.0 1 https://veritas-donum.com/
+/filessite/jquery.elastislide.js 7 http://veritas-donum.com/
+/css/sb-admin.css 12 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/theme-script.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/cherry.parallax.js 6 http://veritas-donum.com/
+/filesite/icon3.png 1 https://veritas-donum.com/
+/myadmin/config/config.inc.php 1 -
+/filessite/tmstickup.js%3Fver=1.0.0 1 https://veritas-donum.com/
+/filessite/jquery-migrate-1.2.1.min.js 7 http://veritas-donum.com/
+/filessite/logo.png 7 http://veritas-donum.com/
+/eng/registration/ 2 -
+/css/jquery.toastmessage.css 58 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/waypoints.min.js 8 http://veritas-donum.com/
+/filessite/jquery.isotope.js%3Fver=1.5.25 1 https://veritas-donum.com/
+/adminpanel/js/bootstrap.js 59 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/comment-reply.min.js 6 http://veritas-donum.com/
+/HNAP1/ 1 -
+/filessite/modernizr.js 8 http://veritas-donum.com/
+/eng/news/ 3 -
+/filessite/jquery.mobilemenu.js 7 http://veritas-donum.com/
+/filessite/cherry.lazy-load.js 6 http://veritas-donum.com/
+/_asterisk 6 -
+/filessite/jquery.jplayer.min.js 7 http://veritas-donum.com/
+/cdn-cgi/pe/bag2 301 https://veritas-donum.com/
+/filessite/lazy-load.css 1 http://veritas-donum.com/about/
+/filessite/cherry-plugin.js%3Fver=1.2.6 1 https://veritas-donum.com/
+/services/MyICOffice/ 1 -
+/filessite/jquery.elastislide.js%3Fver=1.2.6 1 https://veritas-donum.com/
+/filessite/slider-3.jpg 7 http://veritas-donum.com/
+/filessite/device.min.js%3Fver=1.0.0 1 https://veritas-donum.com/
+/filessite/jquery.mousewheel.min.js 7 http://veritas-donum.com/
+/filessite/jquery.ba-resize.min.js 7 http://veritas-donum.com/
+/filessite/man337.png 7 http://veritas-donum.com/
+/filessite/jquery.simplr.smoothscroll.min.js 7 http://veritas-donum.com/
+/wp-admin/admin-ajax.php 5 http://veritas-donum.com/
+/filessite/'+w[C]+' 1 -
+/filessite/styles.css 10 http://veritas-donum.com/
+/filessite/bootstrap.min.js%3Fver=2.3.0 1 https://veritas-donum.com/
+/wp-content/plugins/wysija-newsletters/readme.txt 2 http://veritas-donum.com/
+/filessite/camera.css 8 http://veritas-donum.com/
+/filessite/parallax.css 1 http://veritas-donum.com/about/
+/filessite/jquery.ba-resize.min.js%3Fver=1.1 1 https://veritas-donum.com/
+/filessite/scripts.js 8 http://veritas-donum.com/
+/filessite/cherry.lazy-load.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/cherry-plugin.css 8 http://veritas-donum.com/
+/filessite/owl.carousel.css 10 http://veritas-donum.com/
+/filessite/device.min.js 6 http://veritas-donum.com/
+//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e9627cd26a/cloudflare.min.js 1 https://veritas-donum.com/
+/filessite/theme.css 1 http://veritas-donum.com/about/
+/eshko.jpg 7 -
+/adminpanel/js/plugins/morris/raphael.min.js 58 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/jquery.flexslider-min.js 7 http://veritas-donum.com/
+/filessite/cherry-plugin.js 6 http://veritas-donum.com/
+/filessite/jquery.easing.1.3.js%3Fver=1.3 1 https://veritas-donum.com/
+/filessite/theme-script.js 8 http://veritas-donum.com/
+/filessite/jquery.magnific-popup.min.js 7 http://veritas-donum.com/
+/news/ 8 -
+/4120CEB439D0A400F045A3B91F05F77C.txt 4 -
+/filessite/camera.min.js 6 http://veritas-donum.com/
+/withdrawal 1 https://veritas-donum.com/stat/
+/filessite/custom.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/superfish.js 8 http://veritas-donum.com/
+/sitemap.xml 1 -
+/robots.txt 101 -
+/filessite/swfobject.js 8 http://veritas-donum.com/
+/font-awesome-4.1.0/css/font-awesome.min.css 58 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/tmstickup.js 8 http://veritas-donum.com/
+/filessite/jflickrfeed.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/waypoints.min.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/style.css 1 http://veritas-donum.com/about/
+/filessite/jquery.form.min.js 7 http://veritas-donum.com/
+/filessite/responsive.css 10 http://veritas-donum.com/
+/filessite/jquery.counterup.min.js 7 http://veritas-donum.com/
+/css/bootstrap.css 12 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/jquery.form.min.js%3Fver=3.50.0-2014.02.05 1 https://veritas-donum.com/
+/wp-content/plugins/miwoftp/readme.txt 2 http://veritas-donum.com/
+/filessite/jquery-1.7.2.min.js 7 http://veritas-donum.com/
+/m/ 1 -
+/filesite/icon2.png 1 https://veritas-donum.com/
+/filessite/jquery.debouncedresize.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/circles.min.js 6 http://veritas-donum.com/
+/registration/ 13 -
+/ref 2 https://veritas-donum.com/withdrawal/
+/filessite/owl.theme.css 10 http://veritas-donum.com/
+/filessite/coins17.png 5 http://veritas-donum.com/
+/filessite/images/totop.png 123 https://veritas-donum.com/filessite/main-style.css
+/filessite/jquery.magnific-popup.min.js%3Fver=0.9.3 1 https://veritas-donum.com/
+http://zc.qq.com/cgi-bin/common/attr 3 -
+/filessite/jquery.simplr.smoothscroll.min.js%3Fver=1.0 1 https://veritas-donum.com/
+/adminpanel/js/jquery-1.11.3.min.js 58 https://veritas-donum.com/adminpanel/adminstation.php
+/mobile/ 1 -
+/filessite/jquery.easing.1.3.js 7 http://veritas-donum.com/
+/wp-content/plugins/wp-symposium/readme.txt 2 http://veritas-donum.com/
+/eng/registrationd/ 2 -
+/filesite/icon4.png 1 https://veritas-donum.com/
+/css/plugins/morris.css 58 https://veritas-donum.com/adminpanel/adminstation.php
+/filessite/cherry.parallax.js%3Fver=1.0.0 1 https://veritas-donum.com/
+/filessite/custom.js 6 http://veritas-donum.com/
+/reminder 1 -
+/registrationd/ 19 -
+/filessite/jquery-migrate-1.2.1.min.js%3Fver=1.2.1 1 https://veritas-donum.com/
+/filessite/modernizr.js%3Fver=2.0.6 1 https://veritas-donum.com/
+/filessite/scripts.js%3Fver=3.8 1 https://veritas-donum.com/
+/filessite/jquery.debouncedresize.js 7 http://veritas-donum.com/
+/cdn-cgi/nexp/dok3v=1613a3a185/ 4 -
+/eng/about 1 -
+/filessite/jquery.zaccordion.min.js%3Fver=2.1.0 1 https://veritas-donum.com/
+/filessite/jflickrfeed.js 7 http://veritas-donum.com/
+/CherryFramework/style.css 283 https://veritas-donum.com/
+/filessite/profile7.png 7 http://veritas-donum.com/
+/filessite/jplayer.playlist.min.js 6 http://veritas-donum.com/
+/phpmyadmin/scripts/setup.php 1 -
+/filessite/bootstrap.min.js 6 http://veritas-donum.com/
+/filessite/jquery.counterup.min.js%3Fver=1.0 1 https://veritas-donum.com/
+/filessite/bootstrap-grid.min.css 1 http://veritas-donum.com/about/
+/filessite/jquery.jplayer.min.js%3Fver=2.6.0 1 https://veritas-donum.com/
+/eng/about/ 1 -
+/filessite/jquery-1.7.2.min.js%3Fver=1.7.2 1 https://veritas-donum.com/
+/adminpanel/js/bootstrap.min.js 59 https://veritas-donum.com/adminpanel/adminstation.php
+/enter 2 https://veritas-donum.com/stat/
+/filessite/comment-reply.min.js%3Fver=4.0.8 1 https://veritas-donum.com/
+/filessite/jquery.flexslider-min.js%3Fver=2.2.2 1 https://veritas-donum.com/
+/filessite/bootstrap.css 8 http://veritas-donum.com/
+/eng/contacts/ 3 -
+/filessite/jquery.isotope.js 7 http://veritas-donum.com/
+/manager/html 1 -
+/filessite/ascending24.png 4 http://veritas-donum.com/
+/filessite/superfish.js%3Fver=1.5.3 1 https://veritas-donum.com/
+/filessite/flexslider.css 8 http://veritas-donum.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 65
+109.60.208.72 516 3995 29998906 20151126123951
+94.102.53.144 268 268 3981944 20151130234847
+104.47.147.196 221 221 3277870 20151130171539
+23.102.11.50 70 70 951624 20151130032100
+37.214.230.95 13 131 1738835 20151123132508
+188.187.144.165 8 75 1608771 20151121005021
+69.58.178.56 7 7 188775 20151115083328
+83.220.239.98 5 210 1545222 20151114160403
+94.248.25.194 5 72 1561751 20151126175627
+109.236.81.59 4 71 1526077 20151118070515
+176.112.99.48 1 68 1446853 20151118171701
+78.128.92.194 2 2 69396 20151128121721
+95.213.6.38 1 1 34698 20151123132227
+185.88.29.166 2 2 69396 20151130204847
+108.61.210.150 1 1 34698 20151118152512
+212.56.214.172 1 1 36386 20151115171439
+87.240.177.124 1 1 34698 20151117145309
+62.233.56.201 1 1 34698 20151119003649
+105.99.196.228 1 14 370488 20151116111921
+64.69.91.210 1 1 34698 20151118160452
+193.200.173.177 1 1 34698 20151118140831
+188.162.39.41 3 121 1504362 20151118172515
+37.1.202.50 1 1 34698 20151119023247
+77.247.181.165 2 2 72772 20151115151901
+85.25.103.119 1 1 34698 20151127080801
+91.207.60.66 1 1 34698 20151122092740
+191.248.110.87 1 61 1152564 20151115134542
+93.174.93.50 1 1 34698 20151123204211
+64.79.100.54 2 2 1870 20151114003356
+200.10.4.132 1 51 928570 20151114224432
+91.199.212.132 0 1 53 
+138.36.7.146 1 1 935 20151114045433
+200.206.7.10 1 20 400490 20151114183709
+82.118.237.101 1 1 34698 20151117164643
+91.203.136.34 2 69 1481551 20151123161902
+95.47.137.148 3 135 1516249 20151119121226
+89.250.223.196 1 1 34698 20151124012447
+176.103.48.37 1 1 34698 20151118121953
+197.231.221.211 1 1 34698 20151127080804
+23.239.196.71 2 2 65155 20151115230101
+213.87.131.240 1 68 1446853 20151121023039
+217.118.93.81 1 51 928570 20151115023617
+95.213.6.64 1 1 34698 20151120143152
+23.102.189.134 2 2 22156 20151122224121
+188.162.39.73 1 68 1446853 20151117172358
+89.251.155.249 3 70 1492903 20151119082510
+151.252.75.133 1 68 1446853 20151120094318
+190.109.225.137 1 1 935 20151114095035
+78.25.122.58 1 68 1446853 20151123002112
+184.73.2.73 1 1 34698 20151123201616
+187.113.88.24 1 61 1152564 20151115221307
+37.115.87.167 3 83 1850350 20151120064841
+82.209.239.135 1 1 34698 20151125064833
+70.79.190.7 1 1 34698 20151117071106
+91.226.212.39 1 1 34698 20151121155132
+107.189.60.76 1 35 449035 20151125014750
+51.254.129.249 1 1 36386 20151115105435
+177.195.107.143 1 1 935 20151114084503
+37.59.221.230 0 1 9 
+213.251.211.79 1 68 1446853 20151119153852
+54.90.33.240 1 1 34698 20151130181907
+202.46.54.168 1 1 34698 20151116215207
+94.180.152.205 3 137 2928404 20151120143235
+82.49.1.138 1 1 935 20151114093916
+82.118.237.111 2 2 42426 20151115021420
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20151114 131 784 12372264 10
+20151115 40 913 4771970 10
+20151116 293 1981 11822518 4
+20151117 15 219 3246259 6
+20151118 56 684 8638167 10
+20151119 17 291 3458368 7
+20151120 6 220 4778754 4
+20151121 10 144 3090322 3
+20151122 3 3 56854 3
+20151123 25 344 6344429 7
+20151124 5 72 1561323 2
+20151125 17 51 726443 5
+20151126 53 256 3791283 6
+20151127 26 26 425988 4
+20151128 64 64 990592 4
+20151129 61 61 905100 4
+20151130 366 366 5384762 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 16
+5mn-15mn 5
+15mn-30mn 4
+2mn-5mn 2
+30s-2mn 6
+0s-30s 60
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 38
+/myadmin/scripts/setup.php 493 7311686 22 21
+/ 176 5791640 72 65
+/myadmin/index.php 72 920338 0 1
+/adminpanel/adminstation.php 69 1068671 1 2
+/about/ 42 1010185 0 2
+/deposit/ 36 921183 0 0
+/login/ 35 677035 0 0
+/myadmin/sql.php 31 4128817 0 0
+/enter/ 29 761090 0 0
+/myadmin/tbl_structure.php 27 1625498 0 0
+/myadmin/import.php 2 26831 0 0
+/eng/ 4 3908 0 2
+/stat/ 11 312050 0 0
+/myadmin/navigation.php 17 222146 0 0
+/myadmin/tbl_change.php 3 153874 0 0
+/myadmin/tbl_replace.php 3 249543 0 0
+/adminpanel/index.php 4 10144 0 0
+/profile/ 4 98996 0 0
+/registration/ 19 443984 0 0
+/ref/ 5 119886 0 0
+/contacts/ 17 425407 0 1
+/myadmin/phpmyadmin.css.php 9 135822 0 1
+/myadmin/db_structure.php 6 235664 0 0
+/myadmin/db_export.php 1 6747 0 0
+/withdrawal/ 20 572748 0 0
+/myadmin/db_qbe.php 1 6717 0 0
+/lk/ 5 122576 0 0
+//pmresult.php 1 5 0 0
+/myadmin/main.php 2 76710 0 0
+/adminpanel/login.php 4 632 0 0
+/myadmin/ 4 54608 2 1
+/myadmin/db_import.php 3 40705 0 0
+/adminpanel/ 2 316 0 0
+/faq/ 9 214719 0 1
+/deposits/ 11 261660 0 1
+/exit.php 5 435 0 0
+/pmresult.php 2 10 1 0
+/myadmin/tbl_row_action.php 4 504905 0 0
+END_SIDER

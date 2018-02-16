@@ -1,0 +1,21 @@
+    @font-face {
+    font-family: 'Drugs';
+    src: url('../fonts/Drugs.eot?#iefix') format('embedded-opentype'),  url('../fonts/Drugs.otf')  format('opentype'),
+    url('../fonts/Drugs.woff') format('woff'), url('../fonts/Drugs.ttf')  format('truetype'), url('../fonts/Drugs.svg#Drugs') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PancettaPro-Italic';
+    src: url('../fonts/PancettaPro-Italic.eot?#iefix') format('embedded-opentype'),  url('../fonts/PancettaPro-Italic.otf')  format('opentype'),
+    url('../fonts/PancettaPro-Italic.woff') format('woff'), url('../fonts/PancettaPro-Italic.ttf')  format('truetype'), url('../fonts/PancettaPro-Italic.svg#PancettaPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PancettaPro-Regular';
+    src: url('../fonts/PancettaPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/PancettaPro-Regular.otf')  format('opentype'),
+    url('../fonts/PancettaPro-Regular.woff') format('woff'), url('../fonts/PancettaPro-Regular.ttf')  format('truetype'), url('../fonts/PancettaPro-Regular.svg#PancettaPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

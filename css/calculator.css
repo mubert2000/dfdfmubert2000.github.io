@@ -1,0 +1,147 @@
+.clear  { height: 1px; clear: both; }
+.block-calc {    background: url("../images/black_scales.png") repeat #0c0c0c;
+    width: 750px;
+
+    border-radius:5px 5px 0 0;padding:15px 15px 0 15px;
+    margin:30px 0 0 0; float: left }
+.block-calc > h1 { display: block; text-transform: uppercase;color: #eee; text-align: center; margin: 15px 0 35px 0; }
+.plan-select-block{
+    height: 35px; 
+    margin: 0 auto;
+    text-align: center;
+ width:100%; 
+}
+.pc1 {
+    background: url("../images/bitcoin2.png") 10px center no-repeat, url("../images/bg5.png") bottom center repeat-x;
+}
+.pc2 {
+    background: url("../images/litecoin2.png") 10px center no-repeat, url("../images/bg5.png") bottom center repeat-x;
+}
+.pc3 {
+    background: url("../images/catcoin2.png") 10px center no-repeat, url("../images/bg5.png") bottom center repeat-x;
+}
+.pc4 {
+    background: url("../images/primecoin2.png") 10px center no-repeat, url("../images/bg5.png") bottom center repeat-x;
+}
+.pc5 {
+    background: url("../images/maxcoin2.png") 10px center no-repeat, url("../images/bg5.png") bottom center repeat-x;
+}
+.plan-select-block > h2 { line-height: 35px; padding-right: 15px;}
+.plan-select-block > div
+{
+
+    display: inline-block;
+height: 31px;
+line-height: 34px;
+font-weight: bold;
+text-shadow: 0 1px rgba(255,255,255,1);
+font-size: 16px;
+cursor: pointer;
+padding: 0 15px 0 42px;
+    margin: 0 5px;
+border-radius: 5px;
+box-shadow: inset 0 1px 1px rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.3);
+text-transform: uppercase;
+text-decoration: none;
+color: #7f7f86;
+}
+
+.plan-select-block > div.act 
+{
+   background: url("../images/ok.png") 10px center no-repeat, url("../images/bg4.png") center center no-repeat;
+text-shadow: 0 1px rgba(0,0,0,.15);
+box-shadow: inset 0 1px 1px rgba(255,255,255,.6), 0 1px 1px rgba(0,0,0,0.6);
+color: #fff;
+}
+
+.block-calc-slider { width: 100%; height:50px; }
+.block-calc-slider > h2 { margin-top:-8px;color: #eee}
+
+
+.selector { width:600px; 
+margin: 25px auto;
+background: #eee;
+box-shadow:inset 0 1px 2px rgba(0,0,0,0.3), 0 0 0 5px rgba(0,0,0,0.04);
+    display: block;
+    border-radius: 10px;
+    height: 10px;
+position: relative;
+}
+
+ .round 
+ {
+  position: absolute;
+  left: 80px;
+  top: -9px;
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+  display: block;
+  z-index: 3;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius:5px;
+ background: url("../images/bg4.png") center center no-repeat;
+text-shadow: 0 1px rgba(0,0,0,.15);
+box-shadow: inset 0 1px 1px rgba(255,255,255,.6), 0 1px 1px rgba(0,0,0,0.6);
+  
+}
+.round:active {
+    top: -8px;
+}
+ .round  > div 
+ { 
+    left:-37px;
+    
+    width:100px;
+    
+    display: inline-block;
+    text-align: center;
+   
+    font-style: normal;
+    position: absolute;
+bottom:-35px;
+}
+.amount:after { content: ' $' }
+ .round  > div > span
+ {
+    padding: 0 15px;
+    font-size: 12px;
+    position: relative;
+    background: #eee;
+    border-radius: 5px;
+    height: 22px; line-height: 22px;
+    display: inline-block;
+ }
+
+ .round  > div > span:before
+ {
+    content: '';
+    position: absolute;
+    left:50%;
+    top:-10px;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #eee;
+ }
+.redl {
+    position: absolute;
+    height: 9px; 
+    left:0;
+    border-radius: 5px 0 0 5px;
+    
+  background-color:rgba(0,0,0,.5);
+}
+
+
+.block-calc-profit { display: block; background: #78c26a url("../images/bg4.png") bottom center repeat-x; color: #fff;padding: 20px 10px 10px 10px;border-radius: 5px 5px 0 0; width:150px; margin: 0 auto 0 auto; text-align: center;}
+.block-calc-profit > center > h1 {
+    font-size: 37px;    text-shadow: 2px 2px rgba(0,0,0,.3);
+    padding: 5px 0;
+}
+.block-calc-profit span { text-transform: uppercase; }
+.block-calc-profit span  i { font-style: normal;}
+
+
+
